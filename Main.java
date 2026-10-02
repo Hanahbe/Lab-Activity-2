@@ -1,6 +1,5 @@
-public class Main{
-    public static void main(String [] args) {
-
+public class Main {
+    public static void main(String[] args) {
         Vehicle vehicle1 = new Vehicle("Mitsubishi", "Montero Sports", 2021);
 
         Vehicle vehicle2 = new Vehicle("Hyundai", "Tucson", 2024);
@@ -9,15 +8,17 @@ public class Main{
 
         vehicle1.displayInfo();
         System.out.println("Age: " + vehicle1.calculateAge());
-        System.out.println("Vintage: " + vehicle1.isVintage() + "\n");
+        System.out.println("Vintage: " + vehicle1.isVintage());
+        vehicle1.setYear(2030);
 
         vehicle2.displayInfo();
         System.out.println("Age: " + vehicle2.calculateAge());
-        System.out.println("Vintage: " + vehicle2.isVintage() + "\n");
+        System.out.println("Vintage: " + vehicle2.isVintage());
+        vehicle2.setYear(2021);
 
         vehicle3.displayInfo();
         System.out.println("Age: " + vehicle3.calculateAge());
         System.out.println("Vintage: " + vehicle3.isVintage());
-
+        vehicle3.setYear(2019);
     }
 }
