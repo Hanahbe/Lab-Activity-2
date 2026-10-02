@@ -9,17 +9,17 @@
 
 ---
 
-Toyota Camry 2020
+Mitsubishi Montero Sports 2021
 Age: 6
 Vintage: false
 Year Remains: 2030
 
-Honda Civic 1995
+Hyundai Tucson 2024
 Age: 31
 Vintage: true
 Year is: 2021
 
-Ford Mustang 2010
+Nissan Navara 2023
 Age: 16
 Vintage: false
 Year is: 2019
