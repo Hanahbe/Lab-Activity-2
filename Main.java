@@ -8,11 +8,19 @@ public class Main {
         System.out.println("=== 1. Parent Reference ===");
         Vehicle vehicle = new Car ("Mercedes-Benz", "C-Class", 2024, 4);
         vehicle.displayInfo();
+        vehicle.moveForward();
+        vehicle.moveBackward();
+        vehicle.moveLeft();
+        vehicle.moveRight();
         System.out.println();
 
         // The Same Variable now Refer to a Motorcycle Object.
         vehicle = new Motorcycle("Suzuki", "Burgman Street 125EX", 2024, "4-Stroke, Single-Cylinder");
         vehicle.displayInfo();
+        vehicle.moveForward();
+        vehicle.moveBackward();
+        vehicle.moveLeft();
+        vehicle.moveRight();
 
         // DEMO 2: One Method accepts different Vehicle subclasses
         System.out.println("\n === 2. Method Parameter ===");
@@ -21,8 +29,22 @@ public class Main {
         Truck truck = new Truck("UD Trucks", "Quester", 2023, 10
         );
         printDetails(car);
+        car.moveForward();
+        car.moveBackward();
+        car.moveLeft();
+        car.moveRight();
+        System.out.println();
         printDetails(motorcycle);
+        motorcycle.moveForward();
+        motorcycle.moveBackward();
+        motorcycle.moveLeft();
+        motorcycle.moveRight();
+        System.out.println();
         printDetails(truck);
+        truck.moveForward();
+        truck.moveBackward();
+        truck.moveLeft();
+        truck.moveRight();
 
     // DEMO 3: One array holds different Vehicle subclasses
     System.out.println("\n === 3. Polymorphic Array ===");
@@ -34,6 +56,10 @@ public class Main {
 
     for(Vehicle currentVehicle: vehicles){
         printDetails(currentVehicle);
+        currentVehicle.moveForward();
+        currentVehicle.moveBackward();
+        currentVehicle.moveLeft();
+        currentVehicle.moveRight();
         System.out.println();
     }
 }
