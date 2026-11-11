@@ -26,4 +26,7 @@ public Car (String brand, String model, int year, int numberofDoors){
      public void moveRight(){
         System.out.println("Car is Moving Right");
     }
+     public void Service(){
+        System.out.println("Car: Check Oil and brakes.");
+     }
 }

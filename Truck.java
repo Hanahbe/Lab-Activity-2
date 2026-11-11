@@ -26,4 +26,8 @@ private int numberofWheels;
      public void moveRight(){
         System.out.println("Truck is Moving Right");
     }
+
+   public void Service() {
+      System.out.println("Truck: Check the Cargo and Brakes.");
+   }
    }
