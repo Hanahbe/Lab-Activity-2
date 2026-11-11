@@ -1,4 +1,4 @@
-public class Vehicle {
+public abstract class Vehicle {
 
 private String brand;
 private String model;
@@ -29,6 +29,12 @@ public boolean setYear(int year){
     return false;
 }
 }
+
+public abstract void moveForward();
+public abstract void moveBackward();
+public abstract void moveLeft();
+public abstract void moveRight();
+
 public int getYear(){  
     return year;
 }
