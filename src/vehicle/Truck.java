@@ -1,3 +1,6 @@
+package Vehicle;
+import contracts.Serviceable;
+
 public class Truck extends Vehicle {
 private int numberofWheels;
 
