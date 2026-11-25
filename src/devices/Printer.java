@@ -1,5 +1,5 @@
 package Devices;
-import Contracts.Serviceable;
+import contracts.Serviceable;
 
 public class Printer implements Serviceable {
     public void Service() {

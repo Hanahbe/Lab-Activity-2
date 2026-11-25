@@ -1,5 +1,5 @@
 package Vehicle;
-import Contracts.Serviceable;
+import contracts.Serviceable;
 
 public class Car extends Vehicle {
    private  int numberofDoors;

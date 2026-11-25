@@ -1,6 +1,6 @@
 package app;
 
-import Contracts.Serviceable;
+import contracts.Serviceable;
 import Devices.Printer;
 import Vehicle.Car;
 import Vehicle.Motorcycle;

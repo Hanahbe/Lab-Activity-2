@@ -1,5 +1,5 @@
 package Vehicle;
-import Contracts.Serviceable;
+import contracts.Serviceable;
 
 public class Motorcycle extends Vehicle implements {
 private String EngineType;
